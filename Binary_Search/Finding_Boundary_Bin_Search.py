@@ -17,3 +17,5 @@ def find_boundary(arr: List[bool]) -> int:
         else:
             l = mid+1
     return boundary_index
+
+# To find the last false That is left of bondary, put boundary_index = mid in else statement
